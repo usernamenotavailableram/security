@@ -9,7 +9,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
-@Configuration
+//@Configuration
 public class SecurityConfig {
     private static final Logger logger = LoggerFactory.getLogger(com.example.securitycomponent.security.Authentication.SecurityConfig.class);
 
