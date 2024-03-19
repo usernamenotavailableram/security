@@ -1,4 +1,4 @@
-FROM openjdk:21.0-slim
-COPY target/*.jar app.jar
-EXPOSE 8082
-ENTRYPOINT ["java","-jar","/app.jar"]
+FROM openjdk:21-slim
+COPY target/*.jar security-0.0.1-SNAPSHOT.jar
+EXPOSE 8083
+ENTRYPOINT ["java","-jar","/security-0.0.1-SNAPSHOT.jar"]
